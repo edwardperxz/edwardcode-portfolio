@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  cursor: url('/cursor.svg'), auto;
+}body {
+  cursor: url('/cursor.svg'), auto;
+}
+
+a, button, [role="button"], .cursor-pointer {
+  cursor: url('/hand-pointer.svg'), pointer;
+}

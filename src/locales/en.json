@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "section1": {
+      "title": "Hi, I'm Edward!",
+      "description": "I focus on creating modern interfaces and engaging digital experiences for apps and websites."
+    },
+    "experience": {
+      "title": "Experience",
+      "description": "I have worked as a Fullstack Developer and UI/UX Engineer for companies in Panama and abroad, including freelance projects. My experience covers building scalable web applications, designing intuitive interfaces, and collaborating with multidisciplinary teams. I have contributed to successful product launches, optimized performance, and mentored junior developers."
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "I work with React, TypeScript, Tailwind CSS, GSAP, Node.js, Express, MongoDB, PostgreSQL, Figma, Three.js, and more. I am always learning new tools and frameworks to stay up-to-date with the latest trends in web development and design."
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Here you can find a selection of my featured projects, including web apps, landing pages, dashboards, and interactive experiences. Each project showcases my skills in frontend, backend, and UI/UX design."
+    },
+    "about": {
+      "title": "About me",
+      "description": "I'm Edward Pérez, a Fullstack Developer and UI/UX Engineer based in Panama. I am passionate about technology, problem solving, and creating beautiful and functional digital products. I enjoy teamwork, continuous learning, and sharing knowledge with the community."
+    },
+    "contact": {
+      "title": "Contact me",
+      "description": "Feel free to reach out for collaborations, freelance work, or just to say hello! You can contact me via email, LinkedIn, or WhatsApp. I am available for new opportunities and always open to interesting projects."
+    }
+  },
+  "available": "Available for Work",
+  "role": "Fullstack Developer specialized in React, TypeScript, and Python",
+  "headline": "Edward Pérez",
+  "description": "I am a Fullstack Developer specialized in React, TypeScript, and Python. Passionate about building robust web applications and intuitive user experiences.",
+  "cta": "See my work",
+  "about": {
+    "name": "Edward Pérez",
+    "hello": "Hello, I'm Edward!",
+    "description": "I am a self-taught Fullstack Developer from Panama with experience in web development and UI/UX. I love solving problems in a rational and pragmatic way, always seeking the simplest and most functional solutions.",
+    "linkedin": "linkedin.com/in/edward-perez",
+    "linkedinUrl": "https://linkedin.com/in/edward-perez",
+    "birthdate": "August 2, 1999",
+    "nationality": "Panamanian",
+    "contactTitle": "Contact",
+    "location": "Panama City, Panama",
+    "email": "edward.perez@email.com",
+    "phone": "+507 6988 2300"
+  }
+}

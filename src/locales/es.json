@@ -1,0 +1,154 @@
+{
+  "headline": "Edward Pérez",
+  "role": "Desarrollador Full-Stack",
+  "cta": "Contactar",
+  "available": "Disponible para trabajar",
+  "sections": {
+    "section1": {
+      "title": "¡Hola, soy Edward!",
+      "role": "Desarrollador Fullstack especializado en React, TypeScript y Python.",
+      "title-menu": "Inicio",
+      "description": "Me enfoco en crear interfaces modernas y experiencias digitales atractivas para aplicaciones y sitios web."
+    },
+    "technologies": {
+      "title": "Tech Stack",
+      "description": "Siempre estoy aprendiendo nuevas herramientas y frameworks para mantenerme actualizado con las últimas tendencias en desarrollo y diseño web.",
+      "frontendTitle": "Frontend",
+      "backendTitle": "Backend",
+      "databaseTitle": "Bases de Datos y Almacenamiento",
+      "toolsTitle": "Control de Versiones y Herramientas",
+      "tools": [
+        "Git",
+        "GitLab",
+        "Figma",
+        "Notion",
+        "Jira",
+        "Shortcut",
+        "Postman"
+      ]
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Estos son algunos de los proyectos que he desarrollado y colaborado.",
+      "seeAll": "Ver todos los proyectos",
+      "list": [
+        {
+          "image": "/projects/alegator.png",
+          "image-bg": "/projects/alegator-bg.png",
+          "title": "Alegator",
+          "description": "Plataforma SaaS para torneos de debate.",
+          "details": "Alegator permite crear, administrar y participar en torneos de debate, incluyendo la gestión de rondas, participantes y clasificaciones en tiempo real. Diseñado para ofrecer una experiencia fluida a organizadores, jueces y debatientes.",
+          "tags": ["Next.js", "Typescript", "Tailwind CSS", "Django", "Supabase", "Figma"],
+          "linkLabel": "Ver GitHub",
+          "link": "https://github.com/AlegatorHQ/alegator-new-frontend",
+          "popup": false
+        },
+        {
+          "image": "/projects/chobekablogs.png",
+          "image-bg": "/projects/chobekablogs-bg.png",
+          "title": "ChobekaBlogs",
+          "description": "Plataforma panameña en formato blog para compartir memes.",
+          "details": "Sistema con login social, editor enriquecido, comentarios, exportación de datos y tareas en segundo plano con Celery. Panel admin robusto y funcional.",
+          "tags": ["Django", "HTML", "JavaScript", "Tailwind CSS", "PostgreSQL", "Celery", "Redis", "Figma"],
+          "linkLabel": "Ver Website",
+          "link": "https://leivadev.pythonanywhere.com/",
+          "popup": false
+        },
+        {
+          "image": "/projects/busnow.svg",
+          "image-bg": "/projects/busnow-bg.avif",
+          "title": "BusNow",
+          "description": "App de transporte público con mapa interactivo y seguimiento en tiempo real.",
+          "details": "Permite estimar llegadas de buses, planificar rutas y optimizar trayectos. Usa MapBox y Google Maps para la simulación de movimiento y cálculo de rutas.",
+          "tags": ["Flutter", "Dart", "MapBox", "PostgreSQL"],
+          "linkLabel": "Próximamente",
+          "link": "#",
+          "popup": false
+        },
+        {
+          "image": "/projects/livechat.webp",
+          "image-bg": "/projects/livechat-bg.svg",
+          "title": "LiveChat",
+          "description": "Componente de chat en tiempo real con Supabase.",
+          "details": "Actualización instantánea de mensajes, interfaz simple y conexión con base de datos en tiempo real. Desarrollado como prueba técnica.",
+          "tags": ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+          "linkLabel": "Ver GitHub",
+          "link": "https://github.com/edwardperxz/teleConsultMedChat-component",
+          "popup": false
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experiencia",
+      "description": "He trabajado como Desarrollador FrontEnd en empresas de Panamá y Estados Unidos, además de proyectos personales como Full-Stack. Mi experiencia incluye la creación de aplicaciones web escalables, el desarrollo de interfaces intuitivas y la colaboración con equipos multidisciplinarios.",
+      "list": [
+        {
+          "image": "/experiences/proactive-health-bg.png",
+          "image-bg": "/proactive-bg.png",
+          "title": "Proactive Health Technologies",
+          "description": "Desarrollador FrontEnd",
+          "details": "Desarrollé una plataforma SaaS de telemedicina para mostrar información clínica de forma segura y fluida. Trabajé en la capa intermedia para transformar datos del backend en datos desplegables en el frontend.",
+          "tags": ["React", "JavaScript", "Tailwind CSS", "AJAX", "Git", "Jira", "BitBucket"],
+          "linkLabel": "#",
+          "link": "#",
+          "popup": false
+        },
+        {
+          "image": "/experiences/ayudinga.jpg",
+          "image-bg": "/ayudinga-bg.png",
+          "title": "Fundación Ayudinga",
+          "description": "Desarrollador FrontEnd",
+          "details": "Implementé más de 10 componentes reutilizables usando TypeScript y Sass, mejorando la consistencia visual y funcional de la plataforma principal.",
+          "tags": ["React", "TypeScript", "Sass", "Git", "Shortcut", "Notion"],
+          "linkLabel": "Ver Website",
+          "link": "https://www.ayudinga.org/",
+          "popup": false
+        }
+      ]
+    },
+    "about": {
+  "title": "Sobre mí",
+  "description": "Soy Edward Pérez, desarrollador Full-Stack de Chiriquí, Panamá. Tengo más de dos años de experiencia desarrollando interfaces modernas y aplicaciones web robustas utilizando React, TypeScript y Python., he trabajado en proyectos SaaS, integraciones de APIs y diseño de sistemas eficientes. Disfruto resolver problemas reales con tecnología, colaborar con equipos diversos y seguir aprendiendo cada día para aportar valor a través del código.",
+  "bio": {
+    "location": "Chiriquí, Panamá",
+    "email": "edwardpereztapia@gmail.com",
+    "phone": "+507 6988-2300",
+    "languages": ["Español", "Inglés"],
+    "website": "https://edwardcode.com",
+    "linkedin": "https://linkedin.com/in/edwardperxz"
+  },
+  "education": [
+    {
+      "institution": "Universidad Tecnológica de Panamá",
+      "degree": "Licenciatura en Desarrollo y Gestión de Software",
+      "location": "Chiriquí, Panamá",
+      "date": "Mayo 2023 – Actualidad"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Gestión de Proyectos y Metodología Ágil",
+      "issuer": "Dell Volunteers Project Management Program",
+      "date": "Mayo 2024",
+      "url": "#"
+    },
+    {
+      "title": "Instructor en Campamento Tecnológico Jóvenes en STEM",
+      "issuer": "Campamento Jóvenes en STEM, Chiriquí",
+      "description": "Instructor de programación, MicroPython, Electrónica Básica y ESP8266.",
+      "date": "2024"
+    }
+  ]
+},
+    "contact": {
+      "title": "Contacto",
+      "description": "¿Tienes una idea o proyecto? ¡Hablemos!",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "message": "Mensaje",
+        "send": "Enviar"
+      }
+    }
+  }
+}

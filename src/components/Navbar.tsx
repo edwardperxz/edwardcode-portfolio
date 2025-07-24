@@ -24,10 +24,10 @@ const Navbar: React.FC = () => {
 
   // Links para mobile (secciones de Home.tsx) en el orden solicitado
   const links = [
-    { label: t("sections.section1.title"), href: "#section1" },         // Home
+    { label: t("sections.section1.title-menu"), href: "#section1" },         // Home
     { label: t("sections.technologies.title"), href: "#technologies" }, // Tech stack
-    { label: t("sections.experience.title"), href: "#experience" },     // Experiencia profesional
-    { label: t("sections.projects.title"), href: "#projects" },         // Proyectos realizados
+    { label: t("sections.projects.title"), href: "#projects" },     // Experiencia profesional
+    { label: t("sections.experience.title"), href: "#experience" },         // Proyectos realizados
     { label: t("sections.about.title"), href: "#about" },               // Sobre mí
     { label: t("sections.contact.title"), href: "#contact" },           // Contáctame
   ];
@@ -59,38 +59,47 @@ const Navbar: React.FC = () => {
     </svg>
   );
 
-  const LanguageSwitchBar: React.FC<{ value: string; onChange: (lang: string) => void }> = ({ value, onChange }) => (
-    <div className="flex items-center justify-center gap-4 py-4">
-      <span
-        className={`text-base font-bold cursor-pointer ${value === "en" ? "text-brand-accent" : "text-gray-400"}`}
-        onClick={() => onChange("en")}
-      >
-        EN
-      </span>
-      <div
-        className="relative w-28 h-10 rounded-full flex items-center shadow cursor-pointer transition-all duration-300 overflow-hidden"
-        style={{ background: "transparent" }}
-        onClick={() => onChange(value === "en" ? "es" : "en")}
-        aria-label="Cambiar idioma"
-      >
-        <FlagBar type={value === "en" ? "en" : "es"} />
-        <div
-          className="absolute top-0 transition-all duration-300"
-          style={{
-            left: value === "en" ? 0 : 72,
-          }}
+  const LanguageSwitchBar: React.FC<{ value: string; onChange: (lang: string) => void }> = ({ value, onChange }) => {
+    const [pos, setPos] = React.useState(value === "en" ? 0 : 72);
+
+    React.useEffect(() => {
+      setPos(value === "en" ? 0 : 72);
+    }, [value]);
+
+    return (
+      <div className="flex items-center justify-center gap-4 py-4">
+        <span
+          className={`text-base font-bold cursor-pointer ${value === "en" ? "text-brand-accent" : "text-gray-400"}`}
+          onClick={() => onChange("en")}
         >
-          <div className="w-10 h-10 bg-brand-accent rounded-full shadow" />
+          EN
+        </span>
+        <div
+          className="relative w-28 h-10 rounded-full flex items-center shadow cursor-pointer transition-all duration-300 overflow-hidden"
+          style={{ background: "transparent" }}
+          onClick={() => onChange(value === "en" ? "es" : "en")}
+          aria-label="Cambiar idioma"
+        >
+          <FlagBar type={value === "en" ? "en" : "es"} />
+          <div
+            className="absolute top-0"
+            style={{
+              left: pos,
+              transition: "left 0.4s cubic-bezier(.4,2,.6,1)",
+            }}
+          >
+            <div className="w-10 h-10 bg-brand-accent rounded-full shadow" />
+          </div>
         </div>
+        <span
+          className={`text-base font-bold cursor-pointer ${value === "es" ? "text-brand-accent" : "text-gray-400"}`}
+          onClick={() => onChange("es")}
+        >
+          ES
+        </span>
       </div>
-      <span
-        className={`text-base font-bold cursor-pointer ${value === "es" ? "text-brand-accent" : "text-gray-400"}`}
-        onClick={() => onChange("es")}
-      >
-        ES
-      </span>
-    </div>
-  );
+    );
+  };
 
   return (
     <nav className={`w-full fixed top-0 left-0 z-[100] px-6 py-4 flex items-center justify-between bg-brand-background shadow-lg transition-transform duration-500 ${visible ? "translate-y-0" : "-translate-y-full"}`}>

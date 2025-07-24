@@ -38,11 +38,13 @@ const Button: React.FC<ButtonProps> = ({
         boxShadow: "0 12px 48px #FFD60088, 0 4px 24px #007fff44",
         transform: "scale(1.06)",
         background: "linear-gradient(90deg, #FFF700 0%, #FFD600 100%)",
+        cursor: "url('/hand-pointer.svg'), pointer"
       }
     : {
         boxShadow: "0 6px 32px #23232388",
         transform: "scale(1.06)",
         background: "#232323",
+        cursor: "url('/hand-pointer.svg'), pointer"
       };
 
   const [isHover, setIsHover] = React.useState(false);

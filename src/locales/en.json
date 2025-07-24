@@ -1,46 +1,152 @@
 {
-  "sections": {
-    "section1": {
-      "title": "Hi, I'm Edward!",
-      "description": "I focus on creating modern interfaces and engaging digital experiences for apps and websites."
-    },
-    "experience": {
-      "title": "Experience",
-      "description": "I have worked as a Fullstack Developer and UI/UX Engineer for companies in Panama and abroad, including freelance projects. My experience covers building scalable web applications, designing intuitive interfaces, and collaborating with multidisciplinary teams. I have contributed to successful product launches, optimized performance, and mentored junior developers."
-    },
-    "technologies": {
-      "title": "Technologies",
-      "description": "I work with React, TypeScript, Tailwind CSS, GSAP, Node.js, Express, MongoDB, PostgreSQL, Figma, Three.js, and more. I am always learning new tools and frameworks to stay up-to-date with the latest trends in web development and design."
-    },
-    "projects": {
-      "title": "Projects",
-      "description": "Here you can find a selection of my featured projects, including web apps, landing pages, dashboards, and interactive experiences. Each project showcases my skills in frontend, backend, and UI/UX design."
-    },
-    "about": {
-      "title": "About me",
-      "description": "I'm Edward Pérez, a Fullstack Developer and UI/UX Engineer based in Panama. I am passionate about technology, problem solving, and creating beautiful and functional digital products. I enjoy teamwork, continuous learning, and sharing knowledge with the community."
-    },
-    "contact": {
-      "title": "Contact me",
-      "description": "Feel free to reach out for collaborations, freelance work, or just to say hello! You can contact me via email, LinkedIn, or WhatsApp. I am available for new opportunities and always open to interesting projects."
-    }
-  },
-  "available": "Available for Work",
-  "role": "Fullstack Developer specialized in React, TypeScript, and Python",
-  "headline": "Edward Pérez",
-  "description": "I am a Fullstack Developer specialized in React, TypeScript, and Python. Passionate about building robust web applications and intuitive user experiences.",
-  "cta": "See my work",
-  "about": {
-    "name": "Edward Pérez",
-    "hello": "Hello, I'm Edward!",
-    "description": "I am a self-taught Fullstack Developer from Panama with experience in web development and UI/UX. I love solving problems in a rational and pragmatic way, always seeking the simplest and most functional solutions.",
-    "linkedin": "linkedin.com/in/edward-perez",
-    "linkedinUrl": "https://linkedin.com/in/edward-perez",
-    "birthdate": "August 2, 1999",
-    "nationality": "Panamanian",
-    "contactTitle": "Contact",
-    "location": "Panama City, Panama",
-    "email": "edward.perez@email.com",
-    "phone": "+507 6988 2300"
-  }
+"headline": "Edward Pérez",
+"role": "Full-Stack Developer",
+"cta": "Contact",
+"available": "Available to work",
+"sections": {
+"section1": {
+"title": "Hi, I'm Edward!",
+"role": "Full-Stack Developer specializing in React, TypeScript, and Python.",
+"title-menu": "Home",
+"description": "I focus on creating modern interfaces and engaging digital experiences for apps and websites."
+},
+"technologies": {
+"title": "Tech Stack",
+"description": "I'm always learning new tools and frameworks to stay up-to-date with the latest trends in web development and design.",
+"frontendTitle": "Frontend",
+"backendTitle": "Backend",
+"databaseTitle": "Databases and Storage",
+"toolsTitle": "Version Control and Tools",
+"tools": [
+"Git",
+"GitLab",
+"Figma",
+"Notion",
+"Jira",
+"Shortcut",
+"Postman"
+]
+},
+"projects": {
+"title": "Projects",
+"description": "These are some of the projects I've developed and collaborated on.",
+"seeAll": "See all projects",
+"list": [
+        {
+          "image": "/projects/alegator.png",
+          "image-bg": "/projects/alegator-bg.png",
+"title": "Alegator",
+"description": "Platform SaaS for debate tournaments.",
+"details": "Alegator allows you to create, manage, and participate in debate tournaments, including real-time round, participant, and leaderboard management. Designed to offer a fluid experience to organizers, judges, and debaters.",
+"tags": ["Next.js", "Typescript", "Tailwind CSS", "Django", "Supabase", "Figma"],
+"linkLabel": "See GitHub",
+"link": "https://github.com/AlegatorHQ/alegator-new-frontend",
+"popup": false
+},
+        {
+          "image": "/projects/chobekablogs.png",
+          "image-bg": "/projects/chobekablogs-bg.png",
+"title": "ChobekaBlogs",
+"description": "Panamanian blog-style platform for sharing memes.",
+"details": "System with social login, rich editor, comments, data export, and background tasks powered by Celery. Robust and functional admin panel.",
+"tags": ["Django", "HTML", "JavaScript", "Tailwind CSS", "PostgreSQL", "Celery", "Redis", "Figma"],
+"linkLabel": "View Website",
+"link": "https://leivadev.pythonanywhere.com/",
+"popup": false
+},
+        {
+          "image": "/projects/busnow.svg",
+          "image-bg": "/projects/busnow-bg.avif",
+"title": "BusNow",
+"description": "Public transportation app with interactive map and real-time tracking.",
+"details": "Allows you to estimate bus arrivals, plan routes, and optimize journeys. Uses MapBox and Google Maps for motion simulation and route calculation.",
+"tags": ["Flutter", "Dart", "MapBox", "PostgreSQL"],
+"linkLabel": "Coming Soon",
+"link": "#",
+"popup": false
+},
+        {
+          "image": "/projects/livechat.webp",
+          "image-bg": "/projects/livechat-bg.svg",
+"title": "LiveChat",
+"description": "Real-time chat component with Supabase.",
+"details": "Instant message updates, simple interface, and real-time database connection. Developed as a technical test.",
+"tags": ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+"linkLabel": "See GitHub",
+"link": "https://github.com/edwardperxz/teleConsultMedChat-component",
+"popup": false
+}
+]
+},
+"experience": {
+"title": "Experience",
+"description": "I have worked as a FrontEnd Developer in companies in Panama and the United States, in addition to personal projects such as Full-Stack. My experience includes creating scalable web applications, developing intuitive interfaces and collaborating with multidisciplinary teams.",
+"list": [
+{
+"image": "/experiences/proactive-health-bg.png",
+"title": "Proactive Health Technologies",
+"description": "Front-End Developer",
+"details": "I developed a telemedicine SaaS platform to display clinical information in a secure and seamless way. I worked in the middle layer to transform backend data into frontend deployable data.",
+"tags": ["React", "JavaScript", "Tailwind CSS", "AJAX", "Git", "Jira", "BitBucket"],
+"linkLabel": "#",
+"link": "#",
+"popup": false
+},
+{
+"image": "/experiences/ayudinga.jpg",
+"title": "Fundación Ayudinga",
+"description": "Front-End Developer",
+"details": "Implemented more than 10 reusable components using TypeScript and Sass, improving the visual and functional consistency of the core platform.",
+"tags": ["React", "TypeScript", "Sass", "Git", "Shortcut", "Notion"], 
+"linkLabel": "View Website", 
+"link": "https://www.ayudinga.org/", 
+"popup": false 
+} 
+] 
+}, 
+"about": {
+"title": "About me",
+"description": "I'm Edward Pérez, a full-stack developer from Chiriquí, Panamá. I have over two years of experience developing modern interfaces and robust web applications using React, TypeScript, and Python. I've worked on SaaS projects, API integrations, and efficient systems design. I enjoy solving real-world problems with technology, collaborating with diverse teams, and continuing to learn every day to add value through code.",
+"bio": {
+"location": "Chiriquí, Panamá",
+"email": "edwardpereztapia@gmail.com",
+"phone": "+507 6988-2300",
+"languages": ["Spanish", "English"],
+"website": "https://edwardcode.com",
+"linkedin": "https://linkedin.com/in/edwardperxz"
+},
+"education": [
+{
+"institution": "Universidad Tecnológica de Panamá",
+"degree": "Bachelor's Degree in Software Development and Management",
+"location": "Chiriquí, Panamá",
+"date": "May 2023 – Present"
+}
+],
+"certificates": [
+{
+"title": "Project Management and Agile Methodology",
+"issuer": "Dell Volunteers Project Management Program",
+"date": "May 2024",
+"url": "#"
+},
+{
+"title": "Instructor in STEM Technology Camp",
+"issuer": "Universidad Tecnológica de Panamá, Chiriquí",
+"description": "Programming, MicroPython, Basic Electronics, and ESP8266 Instructor.",
+"date": "2024"
+}
+]
+},
+"contact": {
+"title": "Contact",
+"description": "Do you have an idea or project? Let's talk!",
+"form": {
+"name": "Name",
+"email": "Email",
+"message": "Message",
+"send": "Send"
+}
+}
+}
 }
